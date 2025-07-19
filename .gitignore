@@ -61,3 +61,15 @@ dkms.conf
 /ipch
 /packages
 /out/build/x64-Debug
+
+# Build directories
+/build/
+
+# Release directories
+/Release/
+
+# ThirdParty build artifacts
+/ThirdParty/rocksdb/
+
+# SPDK build files (ignore submodule changes)
+ThirdParty/spdk
